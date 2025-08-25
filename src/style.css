@@ -38,11 +38,13 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding-inline: var(--container-pad);
+  box-sizing: inherit;
 }
 
 .logo {
   text-decoration: none;
   line-height: 0;
+  box-sizing: inherit;
 }
 
 .moyologo {
@@ -56,6 +58,7 @@ body {
   font-size: 12px;
   display: block;
   text-transform: uppercase;
+  box-sizing: inherit;
 }
 
 .menu-list {
@@ -67,6 +70,7 @@ body {
   padding: 0;
   float: right;
   height: var(--nav-height);
+  box-sizing: inherit;
 }
 
 .menu-item + .menu-item {
